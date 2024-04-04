@@ -25,9 +25,3 @@ textarea {
 button [type='submit'] {
   margin-top: 28px;
 }
-
-form {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
