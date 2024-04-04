@@ -2,17 +2,29 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home work 10</title>
+    <title>Document</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <load ="partials/header.html" />
-
     <section>
-      <h1>home work 10</h1>
-      <img src="./img/javascript.svg" alt="js logo" />
+      <div class="form-container">
+        <form class="form">
+          <input
+            type="text"
+            class="input"
+            name="queryInput"
+            placeholder="Search images..."
+          />
+          <button type="submit" class="btn">Search</button>
+        </form>
+      </div>
+      <ul class="gallery"></ul>
     </section>
+    <div class="loader-container">
+      <span class="loader is-hidden"></span>
+    </div>
+
+    <script src="./main.js"></script>
   </body>
 </html>
